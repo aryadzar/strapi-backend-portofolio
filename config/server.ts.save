@@ -1,0 +1,7 @@
+202.10.40.111export default ({ env }) => ({
+  url : 'https://strapi-api.aryadzar.my.id',
+  proxy : true,
+  app: {
+    keys: env.array('APP_KEYS'),
+  },
+});
